@@ -1,0 +1,11 @@
+{
+  "description": "BERNARD Brain Kit (free mini): memory router only",
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/boot.py\"", "timeout": 20 } ] }
+    ],
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/route.py\"", "timeout": 20 } ] }
+    ]
+  }
+}

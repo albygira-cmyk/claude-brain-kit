@@ -1,0 +1,12 @@
+{
+  "name": "bernard-brain-kit",
+  "owner": { "name": "the Bernard Brain Kit team" },
+  "metadata": { "description": "The BERNARD Brain Kit: memory that finds itself and rules that stick, for Claude Code." },
+  "plugins": [
+    {
+      "name": "bernard",
+      "source": "./",
+      "description": "Memory that finds itself and rules that stick: a vault of notes with a router hook, plus rule files that block when a rule is broken."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "bernard",
+  "version": "0.1.1",
+  "description": "Memory that finds itself (free mini): a vault of notes with a router hook that puts the matching notes in front of Claude on every prompt. The full kit adds capture, rule hooks and the save/rule skills.",
+  "author": { "name": "the Bernard Brain Kit team" },
+  "keywords": ["memory", "notes", "obsidian", "hooks", "vault"],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}
