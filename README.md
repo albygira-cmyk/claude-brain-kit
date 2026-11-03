@@ -14,6 +14,9 @@ This is the free mini. The full kit adds: capture of every file Claude changes i
 session note, rule hooks (small Python files that block Claude when a rule is broken, four ready to use), the
 `/bernard:save` and `/bernard:rule` skills, and the guide.
 
+## Safety
+No network calls, no keys, standard-library Python only. Scanned with [AgentShield](https://www.npmjs.com/package/ecc-agentshield) on 3 Nov 2026: 0 critical, 0 high, 0 medium findings (1 low: no session-end hook, by design in the free mini).
+
 ## What you need
 * A Mac (macOS 13 or later). Mac only for now: Linux and Windows are not supported.
 * Claude Code 2.x, signed in.
