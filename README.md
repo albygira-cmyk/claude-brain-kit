@@ -1,5 +1,9 @@
 # BERNARD Brain Kit (free mini)
 
+![A new Claude Code chat answers from saved notes; then the full kit's rule hooks block a .env edit and a force push](docs/demo.gif)
+
+*First clip: what this free kit does (a brand-new chat finds the saved note). Clips two and three: the rule hooks that come with the full kit.*
+
 ## What it does
 Claude Code forgets everything between sessions. This kit gives it a memory that finds itself: your notes live
 in a plain folder of Markdown files (a vault), a map of them is built for you, and on every prompt a small hook
